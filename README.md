@@ -1,5 +1,7 @@
-# HomeAssistant-VTR-Modbus
-Simple control of Systemair VTR(300) via modbus TCP (Wifi) directly to HA.
+# HomeAssistant Systemair SAVE Modbus
+Simple control of Systemair SAVE ventilation units via Modbus (TCP, RTU over TCP, RTU) in Home Assistant.
+
+The implementation follows the SAVE Modbus variable list linked below. Tested on models SAVE VSR300, VSR500, VTR300.
 
 Credits to GMTrevis who created the original code for Home Assistant, and then improved it for use via Node-Red.
 The Node Red version has full control of the VTR, but I had issues where it overloaded my Node-Red. 
